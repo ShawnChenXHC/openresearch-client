@@ -1,19 +1,13 @@
 const express = require('express');
-const path = require('path');
+const cors = require('cors');
+
+const MakeUsers = require('./MakeUsers');
 
 const app = express();
 
-// An api endpoint that returns a short list of items
-app.get('/users', (req,res) => {
-    var list = ["item1", "item2", "item3"];
-    res.json(list);
-    console.log('Sent list of items');
-});
+app.use(cors());
 
-// Handles any requests that don't match the ones above
-app.get('*', (req,res) =>{
-    res.sendFile(path.join(__dirname+'/client/build/index.html'));
-});
+MakeUsers(app);
 
 const port = process.env.PORT || 5000;
 app.listen(port);
