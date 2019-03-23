@@ -6,7 +6,7 @@ function PageComposer(
 ) {
   return (
     <div className={styles.root}>
-      <div className={styles.container + " bg-dark"}>
+      <div className={styles.container}>
         {navbar}
         {content}
         {footer}
