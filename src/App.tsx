@@ -2,7 +2,7 @@ import React from 'react';
 import PageComposer from './layout/PageComposer';
 import PageContent from './layout/PageContent';
 import PageFooter from './layout/PageFooter';
-import PageNavbar from './layout/PageNavbar';
+import PageNavbar from './layout/navbar/PageNavbar';
 
 function App() {
   return (
