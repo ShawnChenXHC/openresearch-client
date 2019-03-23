@@ -1,0 +1,6 @@
+.root {
+  composes: gray-3 from './../../theme/background-colors.module.css';
+  composes: gray-6 from './../../theme/colors.module.css';
+  display: flex;
+}
+
