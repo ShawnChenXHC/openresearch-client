@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./HomeButton.module.css"
-import logo from "./Component.png";
+import logo from "./Component.svg";
 
 function HomeButton() {
   return (

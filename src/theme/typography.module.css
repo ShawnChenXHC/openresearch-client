@@ -1,0 +1,26 @@
+/* Font sizes */
+
+@value size-extra-small: 10px;
+
+@value size-small: 14px;
+
+@value size-medium: 18px;
+
+@value size-large: 24px;
+
+@value size-extra-large: 36px;
+
+/* Font Weights */
+
+@value weight-light: 300;
+
+@value weight-medium: 400;
+
+@value weight-heavy: 700;
+
+@value weight-extra-heavy: 900;
+
+/* Font families */
+
+@value family-stylized: 'Nunito', sans-serif;
+

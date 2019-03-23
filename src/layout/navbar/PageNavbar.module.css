@@ -1,6 +1,25 @@
+@value colors: './../../theme/colors.module.css';
+@value typography: './../../theme/typography.module.css';
+@value gray-3, gray-6 from colors;
+@value size-medium, weight-heavy, family-stylized from typography;
+
 .root {
-  composes: gray-3 from './../../theme/background-colors.module.css';
-  composes: gray-6 from './../../theme/colors.module.css';
+  background-color: gray-3;
+  color: gray-6;
   display: flex;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.listItem {
+  font-size: size-medium;
+  font-weight: weight-heavy;
+  font-family: family-stylized;
+  padding: 0 15px;
 }
 

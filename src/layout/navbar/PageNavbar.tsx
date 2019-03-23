@@ -7,9 +7,9 @@ function PageNavbar() {
   return (
     <nav className={styles.root}>
       <HomeButton />
-      <ul>
+      <ul className={styles.list}>
         {['Dashboard', 'Projects', 'Users'].map((name, index) => (
-          <li key={index}>{name}</li>
+          <li className={styles.listItem} key={index}>{name}</li>
         ))}
       </ul>
     </nav>

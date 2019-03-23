@@ -1,67 +1,33 @@
-.gray-1 {
-  color: #333333;
-}
+@value gray-1: #333333;
 
-.gray-2 {
-  color: #4F4F4F;
-}
+@value gray-2: #4F4F4F;
 
-.gray-3 {
-  color: #828282;
-}
+@value gray-3: #828282;
 
-.gray-4 {
-  color: #BDBDBD;
-}
+@value gray-4: #BDBDBD;
 
-.gray-5 {
-  color: #E0E0E0;
-}
+@value gray-5: #E0E0E0;
 
-.gray-6 {
-  color: #F2F2F2;
-}
+@value gray-6: #F2F2F2;
 
-.red {
-  color: #EB5757;
-}
+@value red: #EB5757;
 
-.orange {
-  color: #F2994A;
-}
+@value orange: #F2994A;
 
-.yellow {
-  color: #F2C94C;
-}
+@value yellow: #F2C94C;
 
-.green-1 {
-  color: #219653;
-}
+@value green-1: #219653;
 
-.green-2 {
-  color: #27AE60;
-}
+@value green-2: #27AE60;
 
-.green-3 {
-  color: #6FCF97;
-}
+@value green-3: #6FCF97;
 
-.blue-1 {
-  color: #2F80ED;
-}
+@value blue-1: #2F80ED;
 
-.blue-2 {
-  color: #2D9CDB;
-}
+@value blue-2: #2D9CDB;
 
-.blue-3 {
-  color: #56CCF2;
-}
+@value blue-3: #56CCF2;
 
-.purple-1 {
-  color: #9B51E0;
-}
+@value purple-1: #9B51E0;
 
-.purple-2 {
-  color: #BB6BD9;
-}
+@value purple-2: #BB6BD9;
