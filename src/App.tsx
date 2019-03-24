@@ -1,6 +1,6 @@
 import React from 'react';
 import PageComposer from './layout/PageComposer';
-import PageContent from './layout/PageContent';
+import PageMain from './layout/PageMain';
 import PageFooter from './layout/PageFooter';
 import PageNavbar from './layout/navbar/PageNavbar';
 
@@ -21,19 +21,19 @@ function App() {
     />
   );
 
-  const content = (
-    <PageContent>
+  const main = (
+    <PageMain>
       <Route exact path="/" component={Dashboard} />
       <Route path="/projects" component={Projects} />
       <Route path="/users" component={Users} />
-    </PageContent>
+    </PageMain>
   );
 
   return (
     <Router>
       <PageComposer
         navbar={navbar}
-        content={content}
+        main={main}
         footer={<PageFooter />}
       />
     </Router>
