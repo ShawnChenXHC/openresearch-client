@@ -1,0 +1,7 @@
+@value colors: './../theme/colors.module.css';
+@value gray-6 from colors;
+
+.root {
+  flex-grow: 1;
+  background-color: gray-6;
+}
